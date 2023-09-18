@@ -1,0 +1,17 @@
+õun = 0
+pirn = 0
+
+while(true){
+    puuvili = prompt('Sisesta mõni puuvili: ')
+    if(puuvili == "õun"){
+        õun = õun + 1
+    }
+
+    else if(puuvili == "pirn"){
+        pirn = pirn + 1
+    }
+else{
+    break;
+}
+} 
+
