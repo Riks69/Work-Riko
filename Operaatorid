@@ -6,6 +6,8 @@
 && and
 || or
 ! negates the expression
+= assignment
+% jäägiga jagamine
 
 
 Control the flow ja conditionals
