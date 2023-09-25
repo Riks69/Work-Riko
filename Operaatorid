@@ -1,0 +1,35 @@
+
+== equals
+< > less or more than
+>= more than equal
+<= less than equal
+&& and
+|| or
+! negates the expression
+
+
+Control the flow ja conditionals
+if, while, for loops
+
+if syntax:
+      if (conditional){
+      }
+      else if (conditional)(
+
+      )
+      else{
+
+      }
+
+while syntax:
+   while (conditional){
+
+  }
+
+for syntax:
+  | not included
+
+        start value  |
+repeat again if true | step size
+ for(initaliation; condition;
+increment)
