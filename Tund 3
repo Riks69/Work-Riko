@@ -1,0 +1,16 @@
+let puuviljalist = []
+let pikim = ""
+for (let i = 0; i < 10; i = i + 1){
+    let puuvili = prompt("Sisesta mõni puuvili: ")
+    if(puuvili != ""){
+        puuviljalist.push(puuvili)
+        if (pikim.length < puuvili.length){
+            pikim = puuvili
+        }
+    }
+for (let i = 0; i < puuviljalist.length; i = i + 1){
+    console.log(puuviljalist[i])
+}
+console.log("Kõige pikem puuvili oli " + pikim)
+
+}
