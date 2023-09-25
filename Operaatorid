@@ -8,6 +8,26 @@
 ! negates the expression
 = assignment
 % jäägiga jagamine
+. otsib parempoolset sõna vasakpoose asja seest
+[] teeb uue array
+muutuja[0] otsib esimest asja muutuja seest
+
+Andmetüübid:
+Number(Float, double, integer)
+string
+boolean
+array(List, masiiv)
+undefined null - tühi muutuja
+
+õpetajad = [
+"Timo",
+"Kaspar",
+"Vadim",
+,
+]
+
+õpetajad.push("Marko")
+.splice
 
 
 Control the flow ja conditionals
