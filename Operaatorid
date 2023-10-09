@@ -18,6 +18,7 @@ string
 boolean
 array(List, masiiv)
 undefined null - tühi muutuja
+object (Dictionary, Map, HashMap, assocative array)
 
 õpetajad = [
 "Timo",
