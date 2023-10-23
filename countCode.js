@@ -2,11 +2,15 @@ const data = ["FWmcfgAWxe","KnFJXGcACq","cCYApSPiX0","iHwbq2giBx","X5Ebl6sjLf","
 
 function countCode(letter){
 
+    const qwe = [];
+
     for(let i = 0; i < data.length; i++){
-        
-        if (data[i][0] === "i")
-        console.log(data[i])
+        if (data[i].startsWith(letter)) {
+            qwe.push(data[i])
+        }
     }
+
+    return qwe
 }
 
-countCode("i");
+console.log(countCode("i"));
