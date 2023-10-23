@@ -10,7 +10,7 @@ function countCode(letter){
         }
     }
 
-    return qwe
+    return qwe.length
 }
 
 console.log(countCode("i"));
